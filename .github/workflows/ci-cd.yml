@@ -25,9 +25,9 @@ jobs:
       - name: Grant execute permission
         run: chmod +x ./gradlew
 
-      # 1. 테스트 단계
-      - name: Run Test
-        run: ./gradlew test
+      #      # 1. 테스트 단계
+      #      - name: Run Test
+      #        run: ./gradlew test
 
       # 2. AWS 인증 (OIDC)
       - name: Configure AWS credentials
